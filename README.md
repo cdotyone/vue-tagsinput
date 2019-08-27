@@ -252,6 +252,7 @@ Certain classes/styles can be overridden via component props on a per instance b
 Prop | Default class | Area
 --- | --- | ---
 wrapper-class | tags-input-wrapper-default | Outer appearance of the input - a wrapper providing a border and padding around the selected tags. If you're using CSS frameworks, you could use the frameworks' native classes, e.g. `form-control` for Bootstrap or `input` for Bulma.
+input-class | tags-input-default | Class applied to the input control.
 
 ## Using Typeahead (Autocomplete)
 
@@ -271,8 +272,8 @@ A pretty serious bug (#53) was fixed in `v2.0.0`. The data format for the `exist
 
 #### v.2.0.2
 
-- Fix: [#43](../../issues/43)
-- Fix: [#62](../../issues/62)
+- Fix: [#43](/voerro/vue-tagsinput/issues/43)
+- Fix: [#62](/voerro/vue-tagsinput/issues/62)
 
 #### v.2.0.1
 
